@@ -4,6 +4,15 @@ body{
 header, footer{
     background-color: cyan;
 }
-li:nth-child(1+2){
+.site-title{
+    color: grey;
+}
+li:nth-child(1-2){
     background-color: aquamarine;
+}
+#my-image{
+    box-shadow: grey; blur
+}
+ul{
+    list-style-type: square;
 }
