@@ -18,6 +18,9 @@ ul{
 }
 #links{
     text-decoration: none; 
-    background: red;
+    background-color: red;
     border: black;
+}
+#links:hover{
+    background-color: purple;
 }
