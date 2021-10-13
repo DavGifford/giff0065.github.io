@@ -8,7 +8,7 @@ header, footer{
     color: red;
 }
 li:nth-child(1-2){
-    background-color: aquamarine;
+    background-color: pink;
 }
 #my-image{
     box-shadow: 0 2px 1px black; 
@@ -16,11 +16,11 @@ li:nth-child(1-2){
 ul{
     list-style-type: square;
 }
-#links{
+a{
     text-decoration: none; 
     background-color: red;
-    border: black;
+    border: green;
 }
-#links:hover{
+a:hover{
     background-color: purple;
 }
