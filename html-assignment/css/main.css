@@ -1,5 +1,5 @@
 body{
-    font-size: 18px;
+    font-size: 18px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header, footer{
     background-color: cyan;
