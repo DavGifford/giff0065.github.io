@@ -4,3 +4,6 @@ body{
 header, footer{
     background-color: cyan;
 }
+li:nth-child(1+2){
+    background-color: aquamarine;
+}
