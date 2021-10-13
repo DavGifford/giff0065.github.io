@@ -19,7 +19,7 @@ ul{
 a{
     text-decoration: none; 
     background-color: red;
-    border: green;
+    border: green 3px solid;
 }
 a:hover{
     background-color: purple;
