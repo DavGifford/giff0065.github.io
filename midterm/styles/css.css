@@ -54,3 +54,22 @@ table {
 body{
     background-color: #AAD4CF;
 }
+.header-image{
+    width:100%
+}
+.small-image{
+    width: 250px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
+        TEXT     
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    color: #FFF;
+    font-size: 3em;
+}
