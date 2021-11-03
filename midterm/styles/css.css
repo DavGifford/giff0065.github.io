@@ -58,7 +58,7 @@ body{
     width:100vw
 }
 .small-image{
-    width: 25vw;
+    height: 270px;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
@@ -71,6 +71,7 @@ html{
 }
 h2{
 	font-size: 2rem;
+	text-align: left;
 }
 h3{
 	font-size: 1.5rem;
@@ -87,7 +88,7 @@ h3{
 	top: 50%;
 	left: 50%;
 }
-section span img{
+.small-image{
 	float: left;
 }
 footer{
@@ -99,8 +100,8 @@ footer{
         NAV  
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-nav{
-	width: 100px;
+nav ul{
+	width: 100vw;
 	height: 40px;
 	border-right: 3px solid cyan;
 }
@@ -120,6 +121,7 @@ nav li a span{
 	float: left;
 	font-size: 1.4rem;
 	line-height: 3.2rem;
+	color:black;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
@@ -132,10 +134,10 @@ nav li a span{
     background-color: #AAD4CF;
 	width: 92vw;
 	height: 500px;
-	padding: 4vw;
-	border: 1vw solid black;
-	margin: 3vw;
+	padding: 20px;
+	border: 3px solid black;
+	margin: 20px;
 }
 .yourname, .youremail{
-	width: 100vw;
+	width: 100%;
 }
