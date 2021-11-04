@@ -125,8 +125,6 @@ nav a{
 	width: 200px;
 }
 nav li a span{
-	display: inline;
-	float: left;
 	font-size: 1.4rem;
 	line-height: 3.2rem;
 	color:black;
