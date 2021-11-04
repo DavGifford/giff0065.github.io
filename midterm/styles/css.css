@@ -111,7 +111,6 @@ span{
 nav ul{
 	width: 100vw;
 	height: 40px;
-	border-right: 3px solid cyan;
 }
 nav li{
 	float: left;
@@ -128,6 +127,10 @@ nav li a span{
 	font-size: 1.4rem;
 	line-height: 3.2rem;
 	color:black;
+}
+#WALL{
+	border-right: 2px solid black;
+	border-left: 2px solid black;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
