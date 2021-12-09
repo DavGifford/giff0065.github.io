@@ -55,7 +55,7 @@ header{
 	text-decoration: none;
 }
 footer{
-	color: orangered;
+	color: orange;
 	background-color: black;
 }
 h1{
@@ -77,9 +77,15 @@ h3{
 	background-color: orange;
 	padding: 1.5em 1.5em 1.5em 1.5em;
 }
+#about_us_area{
+	background-color: #FFE6A5;
+}
+#main-banner, #vision_image{
+	width: 100vw;
+}
 .black_button{
 	color: white;
-	background-color: black;
+	background-color:rgb(2,2,2);
 	font-size: 1.5em;
 	text-decoration: none;
 	padding: 1.5em 1.5em 1.5em 1.5em;
@@ -92,6 +98,11 @@ h3{
 	color:white;
 	text-decoration: none;
 	font-size: 1.5em;
+}
+.serviceblock{
+	background-color: #FFE6A5;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
 }
 /* 
           MOBLIE 
