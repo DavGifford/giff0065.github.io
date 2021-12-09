@@ -46,3 +46,62 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* 
+        TEXT AND BUTTONS
+*/
+header{
+	background-color: black;
+	color: orange;
+	text-decoration: none;
+}
+footer{
+	color: orangered;
+	background-color: black;
+}
+h1{
+	font-size:4em;
+	color: white;
+	font-weight: bold;
+}
+h2{
+	font-size: 3em;
+	font-weight: bold;
+}
+h3{
+	font-size: 1.2em;
+}
+#top_botton{
+	color: black;
+	font-size: 1.5em;
+	text-decoration: none;
+	background-color: orange;
+	padding: 1.5em 1.5em 1.5em 1.5em;
+}
+.black_button{
+	color: white;
+	background-color: black;
+	font-size: 1.5em;
+	text-decoration: none;
+	padding: 1.5em 1.5em 1.5em 1.5em;
+	border: 1px solid black;
+}
+.yt_text{
+	color: white;
+}
+#vsion_button{
+	color:white;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+/* 
+          MOBLIE 
+*/
+@media screen  and (max-width: 991px{
+	
+}
+/* 
+          DESKTOP
+*/
+@media screen and (min-width: 992px) {
+	
+}
