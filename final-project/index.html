@@ -12,121 +12,153 @@
     <!-- 
         NAV
      -->
-     <header>
     <nav>
-        <img src="images/logo.png" alt="Three yellow stars">
-        <a href="">Home</a>
-        <a href="#about_us">About Us</a>
-        <a href="#services">Services</a>    
-        <a href="#team">Team</a>   
-        <a href="#contact">Contact</a> 
-        <form action="search_bar" method="get">
+        <div class="nav_area">
+        <div id="smlogo">
+            <img src="images/logo.png" alt="Three yellow stars">
+        </div>
+        <ul>
+            <li id="nav_home">
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#about_us">About Us</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#team">Team</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a> 
+            </li>
+        </ul>
+        <form id="s_bar">
             <label for="searchbar"></label>
             <input id="searchbar" type="text" placeholder="Search">
-        </form>  
-        <div>
-        <p><i class="icon-zoom"></i></p>
+           <button id="s_butt" type="submit"> <i class="icon icon-zoom"></i></button>
+           </form>
         </div>
     </nav>
-</header>
     <!-- 
         TOP
      -->
-     <div id="about_us_area">
-    <img id= "main-banner" src="images/main-banner.jpg" alt="Office Space">
-    <h1 id="about_us">Welcome to Three Star</h1>
-    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem fringilla ut morbi. Justo laoreet sit amet cursus sit amet dictum sit amet. Elit ut aliquam purus sit amet.</span>
-    <a id="top_botton" href="#contact">Connect with us <i class="icon-right"></i></a> 
-    <img src="images/about-us.jpg" alt="office space with pingpong table">
-    <h2>About Us</h2>
-    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut aliquam purus sit amet luctus venenatis lectus magna. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Nam aliquam sem et tortor. Id aliquet lectus proin nibh nisl condimentum id venenatis a.</span>
-    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget mauris pharetra et ultrices.</span>
-     </div>
+     <header>
+         <div class="top">
+        <img id= "main-banner" src="images/main-banner.jpg" alt="Office Space">
+        <h1 id="about_us">Welcome to Three <br> Star Media</h1>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem fringilla ut morbi. Justo laoreet sit amet cursus sit amet dictum sit amet. Elit ut aliquam purus sit amet.</span>
+        <a id="top_botton" href="#contact">Connect with us <i class="icon-right"></i></a>
+         </div> 
+     </header>
+     <section class="aboot">
+        <div id="about_us_area">
+        <img src="images/about-us.jpg" alt="office space with pingpong table">
+        <div class="aboot_text">
+        <h2>About Us</h2><br><br>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut aliquam purus sit amet luctus venenatis lectus magna. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Nam aliquam sem et tortor. Id aliquet lectus proin nibh nisl condimentum id venenatis a.</span><br><br>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget mauris pharetra et ultrices.</span><br><br>
+        </div>
+        </div>
+     </section>
     <!-- 
         SERVICES
      -->
-     <section>
+     <div class="services_grouping">
+        <h2>Our Services</h2>
+        <section class="services_area">
         <div class="serviceblock">
-    <img src="images/digital.jpg" alt="a laptop and a phone">
-    <h2 id="services">Digital Transformation</h2>
-    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit pellentesque habitant morbi. Mauris cursus mattis molestie a iaculis.</span>
-   <br> 
-   <a class="black_button" href="">Digital Plans<i class="icon-right"></i></a>
+                <img class="serviceimages" src="images/digital.jpg" alt="a laptop and a phone">
+                <h2 id="services">Digital Transformation</h2><br><br>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit pellentesque habitant morbi. Mauris cursus mattis molestie a iaculis.</span><br><br>
+                <br> 
+                <a class="black_button" href="">Digital Plans<i class="icon icon-right"></i></a>
 </div>
 <div class="serviceblock">
-    <img src="images/marketing.jpg" alt="a laptop with graphs">
-    <h2>Marketing</h2>
-    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit pellentesque habitant morbi. Mauris cursus mattis molestie a iaculis.</span>
+    <img class="serviceimages" src="images/marketing.jpg" alt="a laptop with graphs">
+    <h2>Marketing</h2><br><br>
+    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit pellentesque habitant morbi. Mauris cursus mattis molestie a iaculis.</span><br><br>
     <br>
       <a class="black_button" href="">Marketing Plans<i class="icon-right"></i></a>
 </div>
 <div class="serviceblock">
-    <img src="images/video.jpg" alt="phone opening YouTube">
-    <h2>Video Production</h2>
-    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit pellentesque habitant morbi. Mauris cursus mattis molestie a iaculis.</span>
+    <img class="serviceimages" src="images/video.jpg" alt="phone opening YouTube">
+    <h2>Video Production</h2><br><br>
+    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit pellentesque habitant morbi. Mauris cursus mattis molestie a iaculis.</span><br><br>
     <br>
      <a class="black_button" href="">Video Plans<i class="icon-right"></i></a>
 </div>
 <div class="serviceblock">
-    <img src="images/web.jpg" alt="phone on an open notebook">
-    <h2>Web Development</h2>
-    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit pellentesque habitant morbi. Mauris cursus mattis molestie a iaculis.</span>
+    <img class="serviceimages" src="images/web.jpg" alt="phone on an open notebook">
+    <h2>Web Development</h2><br><br>
+    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit pellentesque habitant morbi. Mauris cursus mattis molestie a iaculis.</span><br><br>
     <a class="black_button" href="">Web Plans<i class="icon-right"></i></a>
 </div>
 <div class="serviceblock">
-    <img src="images/print.jpg" alt="a newspaper stand">
-    <h2>Print</h2>
-    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit pellentesque habitant morbi. Mauris cursus mattis molestie a iaculis.</span>
+    <img class="serviceimages" src="images/print.jpg" alt="a newspaper stand">
+    <h2>Print</h2><br><br>
+    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit pellentesque habitant morbi. Mauris cursus mattis molestie a iaculis.</span><br><br>
     <a class="black_button" href="">Print Plans<i class="icon-right"></i></a>
     </div>
-     </section>
+    </section>
+</div>
     <!-- 
         VISION
      -->
-     <div>
+     <section class="vision_area">
     <img id="vision_image" src="images/vision.jpg" alt="paper boats">
+    <div class="vision_text">
     <h3 class="yt_text">Our Vision</h3>
     <span class="yt_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam sem fringilla ut morbi. Justo laoreet sit amet cursus sit amet dictum sit amet. Elit ut aliquam purus sit amet.</span>
-    <a id="vision_button" href="">Lrean More<i class="icon-right"></i></a>
+    <a id="vision_button" href="">Learn More<i class="icon-right"></i></a>
      </div>
+     </section>
     <!-- 
         TEAM
      -->
-     <div>
-     <h2 id="#team">Our Team</h2>
-    <img src="images/john.jpg" alt="a poc man">
-    <h3>John Doe</h3>
-    <span class="titles">CEO and Co-owner</span>
-    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At urna condimentum mattis pellentesque id nibh tortor id aliquet. Sapien eget mi proin sed. Faucibus pulvinar elementum integer enim neque volutpat ac.</span>
-    <h3>Bob Rite</h3>
-    <span class="titles">CFO and Co-owner</span>
-    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At urna condimentum mattis pellentesque id nibh tortor id aliquet. Sapien eget mi proin sed. Faucibus pulvinar elementum integer enim neque volutpat ac.</span>
-    <img src="images/bob.jpg" alt="a white hipster guy">
+     <div class="team_area">
+     <h2 id="team_big">Our Team</h2>
+     <section class="team_it">
+    <div class="teamblock">
+    <div><img class="team_mage" src="images/john.jpg" alt="a poc man"></div>
+    <div class="team_textblock">
+    <h4>John Doe</h4><br>
+    <span class="titles">CEO and Co-owner</span><br><br>
+    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At urna condimentum mattis pellentesque id nibh tortor id aliquet.</span>
+    </div>
+</div>
+    <div class="teamblock">
+    <div>  <img class="team_mage" src="images/bob.jpg" alt="a white hipster guy"></div>
+    <div class="team_textblock">
+    <h4>Bob Rite</h4><br>
+    <span class="titles">CFO and Co-owner</span><br><br>
+    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At urna condimentum mattis pellentesque id nibh tortor id aliquet.</span>
+    </div>
+    </div>
+    </section>
      </div>
     <!-- 
         CONTACT
      -->
-     <article class="Contact">
+     <form id="contactform" action="contact_sheet" method="post">
+     <div class="Contact">
      <h2 id="contact">Contact Us</h2>
-    <span class="contact_big_text">Send us a message</span>
-    <form action="contact_sheet" method="post">
+    <span class="contact_big_text">Send us a message</span><br>
         <label for="fullname">Full Name</label> <br>
         <input id="fullname" type="text"> <br>
         <label for="email">Email</label> <br>
         <input id="email" type="email"> <br>
         <label for="message">Message</label> <br>
-        <input id="message" type="text"> <br>
-        <button type="submit">Send</button>
+        <input id="message" type="text"> <br><br>
+        <button id="contact_butt"type="submit">Send</button>
+     </div>
     </form>
-     </article>
-    <span class="contact_big_text">Location</span>     
-    <div class="mapEmbed">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9445518045263!2d-75.75712548423597!3d45.34993154908155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1637855180286!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
+   
     <!-- HoO Table-->
-   <section>
-       <table>
-    <caption class="contact_big_text">Hours of operation</caption>   
+   <section class="HOO_table">
+    <span class="contact_big_text">Hours of operation</span>  
+       <table> 
     <thead>
         <tr>
         <th class="of_op">Days</th>
@@ -135,8 +167,8 @@
     </thead>  
     <tbody> 
         <tr>
-        <td class="of_op">Monday - Friday</tr>
-        <td class="of_op">9 AM - 6 Pm</td>
+        <td class="of_op">Monday - Friday</td>
+        <td class="of_op">9 AM - 6 PM</td>
         </tr>
         <tr>
         <td class="of_op">Saturday - Sunday</td>
@@ -145,9 +177,18 @@
     </tbody>
        </table>
    </section>
+   <section class="MAP">
+    <span class="contact_big_text">Location</span>  
+    <div class="mapEmbed">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9445518045263!2d-75.75712548423597!3d45.34993154908155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1637855180286!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+   </section>
     <footer>
+        <br> <br>
         <p>&copy; Copyright Three Star Media, 2020</p>
+        <br> <br>
         <p>All images are taken from Unsplash</p>
+        <br> <br>
     </footer>
 </body>
 </html>
