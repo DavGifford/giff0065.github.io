@@ -58,7 +58,7 @@ body{
 	padding: 0px 20px 20px 20px; 
 }
 /* 
-        TEXT AND BUTTONS
+        TEXT 
 */
 header{
 	color: white;
@@ -133,7 +133,9 @@ nav a:hover{
 	text-decoration: none;
 	background-color: orange;
 	padding: 30px 25px;
-	
+	margin: 10px;
+	position: absolute;
+	top: 74%;
 }
 #main-banner{
 	position: relative;
@@ -151,9 +153,7 @@ header h1{
 header span{
 	margin: 0px 30px 40px 15px;
 }
-header a{
-	
-}
+
 /* Abouts */
 #about_us_area{
 	background-color: #FFE6A5;
@@ -181,7 +181,6 @@ header a{
 /* Vision */
 .vision_area{
 	position: relative;
-	background-image: url(vision.jpg);
 }
 .yt_text{
 	color: white;
@@ -193,11 +192,23 @@ header a{
 }
 #vision_image{
 	width: 100%;
+	height: 260px;
+	object-fit: cover;
+	object-position: 0px -85px;
 }
 .vision_text{
 	position: absolute;
 	width: 100%;
-	top:50%;
+	top:10%;
+	padding: 15px 20px 10px 10px;
+}
+#vision_button{
+	color: white;
+	background-color:rgba(2,2,2, 0.4);
+	font-size: 1.5em;
+	text-decoration: none;
+	padding: 30px;
+	border: 2px solid #C68D00;	
 }
 /* services */
 .serviceblock{
@@ -209,10 +220,10 @@ header a{
 .serviceblock h2, .serviceblock span{
 	padding: 0px 20px 20px 20px; 
 }
-
 .serviceimages{
 	width: 100%;
 }
+
 /* 
 Teamseas */
 .titles{
@@ -279,5 +290,35 @@ form #contactform{
           DESKTOP
 */
 @media screen and (min-width: 760px) {
+	/* 
+	Nav
+	*/
 	
+	#smlogo{
+		background-color: black;
+	}
+	/* 
+	Header
+	*/
+	/* 
+	About Us
+	 */
+	 /* 
+	 Services
+	  */
+	  /* 
+	  Vision 
+	  */
+	  /* 
+	  Team
+	   */
+	  /* 
+	  Contact 
+	  */
+	   /* 
+	   HoO table & MAP 
+	   */
+	   /* 
+	   Footer
+	    */
 }
