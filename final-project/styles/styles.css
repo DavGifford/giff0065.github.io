@@ -61,7 +61,6 @@ body{
         TEXT AND BUTTONS
 */
 header{
-	background-color: black;
 	color: white;
 	text-decoration: none;
 }
@@ -88,6 +87,38 @@ h4{
 	font-size: 2em;
 	font-weight: bold;
 }
+/* 
+Nav
+*/
+#smlogo{
+	background-color: #C68D00;
+}
+nav{
+	background-color: black;
+	padding: 10px;
+}
+nav ul, #s_bar{
+	text-align: center;
+}
+nav a{
+	text-decoration: none;
+	color: #C68D00;
+	font-size: 1.1em;
+}
+nav li{
+	display: block;
+	padding:15px 40% 15px 40% ;
+}
+nav li:hover{
+	background-color: #C68D00;
+}
+nav a:hover{
+	color: #000;
+}
+#searchbar{
+	width: 90%;
+	height:calc(1.1em + 10px);
+}
 /* Contect */
 .contact_big_text{
 	font-size: 2em;
@@ -98,14 +129,41 @@ h4{
 /* Header */
 #top_botton{
 	color: black;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	text-decoration: none;
 	background-color: orange;
-	padding: 1.5em 1.5em 1.5em 1.5em;
+	padding: 30px 25px;
+	
+}
+#main-banner{
+	position: relative;
+}#header_textblock{
+	background-color: rgba(0, 0, 0, .4);
+	position: absolute;
+	height: 380px;
+	width: 100%;
+	top: 80%;
+}
+header h1{
+	margin: 40px 30px 30px 15px;
+	line-height: 80px;
+}
+header span{
+	margin: 0px 30px 40px 15px;
+}
+header a{
+	
 }
 /* Abouts */
 #about_us_area{
 	background-color: #FFE6A5;
+	padding:10px;
+}
+.aboot{
+	display:block;
+}
+#aboot_image{
+	width: 100%;
 }
 #main-banner, #vision_image{
 	width: 100%;
