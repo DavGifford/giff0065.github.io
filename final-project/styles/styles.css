@@ -123,8 +123,6 @@ nav a:hover{
 .contact_big_text{
 	font-size: 2em;
 	font-weight: bold;
-	padding-top: ;
-	margin-bottom: ;
 }
 /* Header */
 #top_botton{
@@ -139,6 +137,7 @@ nav a:hover{
 }
 #main-banner{
 	position: relative;
+}	
 }#header_textblock{
 	background-color: rgba(0, 0, 0, .4);
 	position: absolute;
@@ -211,6 +210,8 @@ header span{
 	text-decoration: none;
 	padding: 30px;
 	border: 2px solid #C68D00;	
+	display: inline-block;
+	margin: 10px 0px;
 }
 /* services */
 .serviceblock{
@@ -286,12 +287,14 @@ form #contactform{
 	background-color: rgb(2,2,2);
 	color: orange;
 	font-size: 1.2em ;
-	padding: ;
 }
 /* 
           DESKTOP
 */
 @media screen and (min-width: 760px) {
+	.services_grouping, .team_area, #contactform, .HOO_table,  .MAP, footer{
+		padding: 0px 50px 20px 50px; 
+	}
 	/* 
 	Nav
 	*/
@@ -330,20 +333,25 @@ form #contactform{
 	   */
 	   .team_it{
 		   display: grid;
-		   grid-template-columns: 1fr 1fr;
-		   grid-template-rows: 1fr 1fr;
+		   grid-template-columns: 1fr 1fr;  
+		   grid-template-rows: 1fr 1fr ;
+		   grid-gap: 0px 0px;
 	   }
    .team_it .team_mage:nth-child(1){
+	   height: 400px;
 	   grid-area: 1, 1, 2, 2;
 	 }
 	 .team_it .team_mage:nth-child(2){
 		 grid-area: 2, 2, 3, 3;  
+		 height: 400px;
 	}
 	.team_it .team_textblock:nth-child(1){
+		height: 400px;
 		grid-area: 1, 2, 2, 3;   
 	}
 	.team_it .team_textblock:nth-child(2){
-		grid-area: 2, 2, 3, 3;	   
+		height: 400px;
+		grid-area: 2, 1, 3, 2;	   
 	}
 	  /* 
 	  Contact 
@@ -358,7 +366,7 @@ form #contactform{
 		 order: 3;
 	  }
 	  .bottom-flex .MAP, .bottom-flex #contactform{
-		  flex-basis: calc(46% + 0px) ;
+		  flex-basis: calc(46% - 50px) ;
 	  }
 	   /* 
 	   Footer
