@@ -176,7 +176,9 @@ header span{
 	text-decoration: none;
 	padding: 1.5em 1.5em 1.5em 1.5em;
 	border: 1px solid black;
-	
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-left: 10px;
 }
 /* Vision */
 .vision_area{
@@ -293,7 +295,21 @@ form #contactform{
 	/* 
 	Nav
 	*/
-	
+	nav{
+		padding: 15px;
+		display: flex;
+		flex-direction: row;
+	}
+	nav li:hover{
+		background-color: #C68D00;
+	}
+	nav a:hover{
+		color: #000;
+	}
+	#searchbar{
+		width: 90%;
+		height:calc(1.1em + 10px);
+	}
 	#smlogo{
 		background-color: black;
 	}
@@ -312,12 +328,38 @@ form #contactform{
 	  /* 
 	  Team
 	   */
+	   .team_it{
+		   display: grid;
+		   grid-template-columns: 1fr 1fr;
+		   grid-template-rows: 1fr 1fr;
+	   }
+   .team_it .team_mage:nth-child(1){
+	   grid-area: 1, 1, 2, 2;
+	 }
+	 .team_it .team_mage:nth-child(2){
+		 grid-area: 2, 2, 3, 3;  
+	}
+	.team_it .team_textblock:nth-child(1){
+		grid-area: 1, 2, 2, 3;   
+	}
+	.team_it .team_textblock:nth-child(2){
+		grid-area: 2, 2, 3, 3;	   
+	}
 	  /* 
 	  Contact 
 	  */
-	   /* 
-	   HoO table & MAP 
-	   */
+	  .bottom-flex{
+		  display: flex;
+		  flex-wrap: wrap;
+		  flex-basis: 0;
+	  }
+	  .bottom-flex .HOO_table{
+		  flex-basis: 100%;
+		 order: 3;
+	  }
+	  .bottom-flex .MAP, .bottom-flex #contactform{
+		  flex-basis: calc(46% + 0px) ;
+	  }
 	   /* 
 	   Footer
 	    */
